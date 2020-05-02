@@ -2,20 +2,20 @@
 #include "header.h"; 
 
 void MyPoint::setX(float x){
-		x_=x;
+        x_ = x;
 }
 
 void MyPoint::setY(float y){
-		y_=y;
+        y_ = y;
 }
 
 void MyPoint::setXY(float x,float y){
-		x_=x;
-		y_=y;
+        x_ = x;
+        y_ = y;
 }
 
 void MyPoint::showXY(){
-	cout<<"Координаты точки "<<x_<<" "<<y_<<'\n';
+    cout<<"Координаты точки "<< x_ <<" "<< y_ <<'\n';
 }
 
 float MyPoint::getX(){
