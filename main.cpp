@@ -7,31 +7,31 @@
 #include "header.h";
 
 int main() {
-	setlocale(LC_ALL,"rus");
+    setlocale(LC_ALL,"rus");
 
     //MyPoint pt1(1,2);
-	MyPoint pt2(2,1);
+    MyPoint pt2(2,1);
 
-	MyPoint pt1;
+    MyPoint pt1;
     //MyPoint pt2;
 
-	float x,y;
+    float x,y;
 
 
-	char errstr[]="Ошибка ввода \n";
-	cout<<'\n';
+    char errstr[]="Ошибка ввода \n";
+    cout << '\n';
 
-	pt1.showXY();
-	pt2.showXY();
+    pt1.showXY();
+    pt2.showXY();
 
-	cout<<'\n';
+    cout << '\n';
 
     //ввод координат первой точки
-	cout<<"Введите координаты первой точки \n"
-	<<"1 - Абсцисса \n"
-	<<"2 - Ордината \n";
-	cin>>x;
-	cin>>y;
+    cout << "Введите координаты первой точки \n"
+         << "1 - Абсцисса \n"
+         << "2 - Ордината \n";
+    cin>>x;
+    cin>>y;
 
 
     try {
