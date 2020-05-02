@@ -3,7 +3,7 @@
 #define _MYPOINT_H
 
 
-class MyPoint{
+class MyPoint {
 	float x_,y_;
 
 public:
@@ -14,10 +14,10 @@ public:
 	float getX();
 	float getY();
 	
-	MyPoint(){x_=0; y_=0; cout<<"Конструктор 1 сработал \n";}//конструктор с инициализацией нулевых значений
+    MyPoint();
 
-	MyPoint(float x,float y){x_=x; y_=y; cout<<"Конструктор 2 сработал \n";}//конструктор с инициализацией по заданным данным 
+    MyPoint(float x,float y);
 
-	~MyPoint(){cout<<"Сработал деструктор \n";}
+    ~MyPoint();
 };
 #endif
